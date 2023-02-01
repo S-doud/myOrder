@@ -16,7 +16,7 @@ func main() {
 	defer conn.Close()
 
 	req := &pb.QueryOrderRequest{
-		OrderId: "1241254",
+		OrderId: "123",
 	}
 
 	orderServerClient := pb.NewOrderServiceClient(conn)
